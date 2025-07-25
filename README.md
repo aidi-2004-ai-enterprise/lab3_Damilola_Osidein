@@ -60,3 +60,5 @@ uvicorn app.main:app --reload
 
 
 Test the API: Open http://127.0.0.1:8000/docs and use the /predict endpoint.
+
+Demo Video: video1005790717.mp4
