@@ -50,11 +50,11 @@ This project implements a machine learning pipeline to classify penguin species 
      ```
 
 ## Demo Video
-[Watch the demo video](./demo.mp4) for examples of successful and failed API requests. The video demonstrates:
+The video demonstrates:
 - Successful requests with valid inputs.
 - Failed requests with invalid `sex` or `island` values, showing graceful error handling.
 
-https://drive.google.com/file/d/1AOQuLrsfpZ4ac_AhHvws-TOi_oXI_Lb-/view?usp=drive_link 
+https://drive.google.com/file/d/1ONuZUm1BCEDe9PAgQOznsSJXaHRB8a66/view
 
 ## Notes
 - The model is trained on the Seaborn penguins dataset with one-hot encoding for `sex` and `island`, and label encoding for `species`.
@@ -63,3 +63,4 @@ https://drive.google.com/file/d/1AOQuLrsfpZ4ac_AhHvws-TOi_oXI_Lb-/view?usp=drive
 - The code includes docstrings and type hints for readability and maintainability.
 
 - The application handles invalid inputs gracefully, returning HTTP 400 errors with clear messages.
+
