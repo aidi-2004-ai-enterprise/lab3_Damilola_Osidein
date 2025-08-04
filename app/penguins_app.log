@@ -1,0 +1,6 @@
+2025-08-04 10:13:25,401 - INFO - Model and encoders loaded successfully
+2025-08-04 10:21:40,963 - INFO - Prediction successful: species=Adelie, confidence=0.9994
+2025-08-04 10:21:47,770 - INFO - Prediction successful: species=Adelie, confidence=0.9994
+2025-08-04 10:24:17,606 - INFO - Prediction successful: species=Adelie, confidence=0.9994
+2025-08-04 10:55:30,290 - INFO - Prediction successful: species=Adelie, confidence=0.9994
+2025-08-04 11:03:19,949 - INFO - Prediction successful: species=Adelie, confidence=0.9994
