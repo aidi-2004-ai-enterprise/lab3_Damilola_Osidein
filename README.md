@@ -54,9 +54,12 @@ This project implements a machine learning pipeline to classify penguin species 
 - Successful requests with valid inputs.
 - Failed requests with invalid `sex` or `island` values, showing graceful error handling.
 
+https://drive.google.com/file/d/1AOQuLrsfpZ4ac_AhHvws-TOi_oXI_Lb-/view?usp=drive_link 
+
 ## Notes
 - The model is trained on the Seaborn penguins dataset with one-hot encoding for `sex` and `island`, and label encoding for `species`.
 - The FastAPI application uses Pydantic for input validation, ensuring only valid `sex` and `island` values are accepted.
 - Logging is implemented to track model loading, predictions, and errors, with logs saved to `app/penguins_app.log` and displayed in the console.
 - The code includes docstrings and type hints for readability and maintainability.
+
 - The application handles invalid inputs gracefully, returning HTTP 400 errors with clear messages.
